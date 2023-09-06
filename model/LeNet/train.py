@@ -2,7 +2,7 @@
 import matplotlib
 matplotlib.use("Agg")
 #导入带训练网络
-import LeNet
+from lenet import LeNet
 #导入依赖包
 from sklearn.metrics import classification_report
 from torch.utils.data import random_split
